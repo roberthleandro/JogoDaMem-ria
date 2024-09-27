@@ -33,6 +33,7 @@ p {
     display: inline;
     text-align: center;
     font-size: clamp(15px, 2vw, 20px);
+    
 }
 
 .space {
@@ -146,4 +147,19 @@ footer {
     height: clamp(20px, 5vw, 30px);
     background-color: #7e7e7e;
     margin: auto;
+    display: inline;
+}
+
+#recorde{
+    display: inline;
+    font-size:clamp(20px, 4vw, 30px);
+    width: 100%;
+    height: clamp(20px, 10vw, 60px);
+    background-color: #7e7e7e00;
+    margin: auto;
+    
+}
+
+#regras{
+ 
 }

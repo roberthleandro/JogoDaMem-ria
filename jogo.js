@@ -1,5 +1,8 @@
 let divs = document.querySelectorAll('.frente')
 let id = null;
+let p = document.getElementById("record")
+p.innerText = Number(localStorage.getItem('record'))
+p.style.fontSize = 'clamp(15px, 4vw, 35px)'
 divs.forEach(div =>{
     div.addEventListener('click', function(){
         this.style.background = 'rgba(0, 0, 0, 0)'
@@ -30,6 +33,7 @@ divs.forEach(div =>{
                 if (allTransparent) {
                     let recorde = segundos
                     var record = Number(localStorage.getItem('record'))
+                    
                     if(record >= recorde){
                         recorde = segundos
                         localStorage.setItem('record', recorde)
@@ -37,7 +41,7 @@ divs.forEach(div =>{
                     }
                     const username = localStorage.getItem('username');
                     setTimeout(() => {
-                        alert(`Parabéns ${username}, você ganhou!, Seu Tempo Foi ${cronometro.textContent} Seu Recorde e ${record}`);
+                        alert(`Parabéns ${username}, você ganhou!, Seu Tempo Foi ${cronometro.textContent}`);
                         
                     }, 10 );
                     setTimeout(function() {
@@ -81,5 +85,3 @@ function atualizarCronometro() {
         (minutos < 10 ? '0' + minutos : minutos) + ':' +
         (segundos < 10 ? '0' + segundos : segundos);
 }
-
-
