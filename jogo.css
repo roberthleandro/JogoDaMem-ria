@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Silkscreen:wght@400;700&display=swap');
+
+
+body {
+    background-color: rgb(82, 82, 82);
+    margin: 0;
+    padding: 0;
+    width: 100vw;  
+    text-align: center;
+    font-family: "Alice", serif;
+}
+
+header {
+    display: block;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    width: 100%;
+    height: auto; /* Alterado para auto */
+    padding: 10px 0; /* Adicionado padding */
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(20px, 4vw, 40px);
+    font-family: "Silkscreen", sans-serif;
+}
+
+p {
+    color: white;
+    display: inline;
+    text-align: center;
+    font-size: clamp(15px, 2vw, 20px);
+}
+
+.space {
+    background-color: transparent;
+    width: 100%; /* Alterado para 100% */
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+div {
+    background-color: #fffffffe;
+    width: 19%;
+    max-width: 125px;
+    height: auto; /* Alterado para auto */
+    aspect-ratio: 1; /* Mantém a proporção */
+    margin: 2%;
+    border-radius: 10px;
+    color: white;
+}
+
+button {
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #000000;
+    color: #f0f0f0;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.frente {
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgb(48, 48, 48);
+}
+.card1{
+    background: url(img/new-new-1.png);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card2{
+    background: url(img/new-new-2.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card3{
+    background: url(img/new-new-3.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card4{
+    background: url(img/new-new-4.png);
+    background-size: 100%;;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card5{
+    background: url(img/new-new-5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card6{
+    background: url(img/new-new-6.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card7{
+    background: url(img/new-new-7.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card8{
+    background: url(img/new-new-8.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.troywell-avia{
+    margin: 0px;
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+}
+
+.troywell-caa{
+    margin: 0px;
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+}
+#cronometro {
+    font-size:clamp(20px, 5vw, 30px);
+    width: 100%;
+    height: clamp(20px, 5vw, 30px);
+    background-color: #7e7e7e;
+    margin: auto;
+}
