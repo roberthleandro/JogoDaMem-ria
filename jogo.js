@@ -34,7 +34,12 @@ divs.forEach(div =>{
                     let recorde = segundos
                     var record = Number(localStorage.getItem('record'))
                     
-                    if(record >= recorde){
+                    if(record == 0){
+                        recorde = segundos
+                        localStorage.setItem('record', recorde)
+                        record = Number(localStorage.getItem('record'))
+                    }
+                    else if(record >= recorde){
                         recorde = segundos
                         localStorage.setItem('record', recorde)
                         record = Number(localStorage.getItem('record'))
